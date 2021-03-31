@@ -1,3 +1,12 @@
-@import "reset.scss";
-@import "common.scss";
-@import "layout.scss";
+
+$s30: 30px;
+
+@mixin font($weight,$size,$height) {
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+};
+
+@import "_reset";
+@import "_common";
+@import "_layout";

@@ -1,0 +1,13 @@
+p {
+    padding:20px;
+}
+button {
+    background-color:antiquewhite;
+    padding:10px 20px;
+    min-width:190px;
+    // font-weight: bold;
+    // font-size: $s30;
+    @include font(null,80px,1.5);
+    text-align: center;
+    color:#555;
+}
